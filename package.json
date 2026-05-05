@@ -2,5 +2,8 @@
   "name": "goatfarm-testbed",
   "version": "0.1.0",
   "private": true,
-  "scripts": { "test": "echo 'no tests'" }
+  "scripts": {
+    "start": "node --experimental-strip-types src/index.ts",
+    "test": "echo 'no tests'"
+  }
 }
